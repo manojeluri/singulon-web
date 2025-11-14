@@ -147,9 +147,17 @@ export default function Home() {
       <section id="about" className="py-20 px-8 bg-black scroll-mt-20">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-4">Our Mission</h2>
-          <p className="text-gray-400 text-center mb-16 max-w-2xl mx-auto">
+          <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
             Pioneering the convergence of artificial intelligence and extended reality
           </p>
+
+          {/* Vision Statement */}
+          <div className="bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-cyan-500/10 rounded-2xl p-8 md:p-12 border border-zinc-800 mb-16">
+            <h3 className="text-sm font-semibold text-blue-400 text-center mb-3 tracking-wider uppercase">Our Vision</h3>
+            <p className="text-2xl md:text-3xl font-bold text-center text-white leading-relaxed">
+              To accelerate the world&apos;s transformation towards future tech.
+            </p>
+          </div>
 
           <div className="grid md:grid-cols-2 gap-12 mb-16">
             <div>

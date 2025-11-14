@@ -146,17 +146,35 @@ export default function Home() {
       {/* About/Mission Section */}
       <section id="about" className="py-20 px-8 bg-black scroll-mt-20">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-4">Our Mission</h2>
-          <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Pioneering the convergence of artificial intelligence and extended reality
-          </p>
-
           {/* Vision Statement */}
-          <div className="bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-cyan-500/10 rounded-2xl p-8 md:p-12 border border-zinc-800 mb-16">
-            <h3 className="text-sm font-semibold text-blue-400 text-center mb-3 tracking-wider uppercase">Our Vision</h3>
-            <p className="text-2xl md:text-3xl font-bold text-center text-white leading-relaxed">
-              To accelerate the world&apos;s transformation towards future tech.
-            </p>
+          <div className="mb-16">
+            <h2 className="text-4xl font-bold text-center mb-4">Our Vision</h2>
+            <div className="bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-cyan-500/10 rounded-2xl p-8 md:p-12 border border-zinc-800">
+              <p className="text-2xl md:text-3xl font-bold text-center text-white leading-relaxed">
+                To accelerate the world&apos;s transformation towards future tech.
+              </p>
+            </div>
+          </div>
+
+          {/* Mission Statement */}
+          <div className="mb-16">
+            <h2 className="text-4xl font-bold text-center mb-4">Our Mission</h2>
+            <div className="bg-zinc-900 rounded-2xl p-8 md:p-12 border border-zinc-800">
+              <p className="text-xl md:text-2xl font-semibold text-center text-blue-400 mb-8 leading-relaxed">
+                Advancing AI and future technologies to expand what people and products can achieve.
+              </p>
+              <div className="space-y-6 text-gray-300 leading-relaxed max-w-4xl mx-auto">
+                <p>
+                  We&apos;re solving the gap between cutting-edge technology and real-world usability. AI and future tech evolve fast, but adoption lags behind. We aim to make advanced systems practical, reliable, and intuitive for people and products alike.
+                </p>
+                <p>
+                  We serve builders, creators, and organizations that want to do more with less complexity. Our focus is on building tools and systems that extend human potential and make technology feel effortless.
+                </p>
+                <p>
+                  We&apos;re building toward a future where technology becomes more intuitive, collaborative, and self-improving. A world where intelligence exists in every layer of work, learning, and creation—not to replace people, but to amplify what they can achieve. The pace of innovation has outgrown human bandwidth, and the choices made today will define how AI and emerging technologies shape daily life for decades. Building responsibly now ensures that progress stays human-centered, empowering, and accessible—not overwhelming or exclusive.
+                </p>
+              </div>
+            </div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 mb-16">
